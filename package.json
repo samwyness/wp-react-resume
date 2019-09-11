@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src/**/*.js",
     "start": "webpack-dev-server --config webpack.dev.js --open",
+    "wp_dev": "webpack --config webpack.wpdev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
